@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+{% if page.permalink == "/index.html" %}
+{% include hero.html %}
+{% endif %}
+
+{% include header.html %}
+
+  <main id="main">
+
+  {{ content }}
+
+  </main><!-- End #main -->
+
+{% include footer.html %}
+
+</body>
+
+</html>
