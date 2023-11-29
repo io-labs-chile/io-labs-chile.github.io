@@ -13,9 +13,24 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>{{ site.title }}</title>
+
+    <!-- SEO Meta Tags -->
     <meta content="{{ site.description }}" name="description">
     <meta content="{{ site.keywords }}" name="keywords">
-  
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.io-labs.cl" />
+    <meta property="og:image" content="https://www.io-labs.cl/assets/img/logo.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}" />
+    <meta name="twitter:image" content="https://www.io-labs.cl/assets/img/logo.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    
+
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
