@@ -1,7 +1,7 @@
 title: "iO-Labs - Laboratorio Tecnológico"
 email: contacto@io-labs.cl
 description: "Capturamos el futuro, Monitoreamos el progreso, tecnología avanzada para un mundo en constante cambio."
-keywords: "Laboratorio tecnologico, Servicios de monitoreo, Captura de variables en tiempo real, Monitoreo remoto de líneas de producción, Automatización y control."
+keywords: "Laboratorio tecnologico, Academia Digital, Academian Industrial, Servicios de monitoreo, Captura de variables en tiempo real, Monitoreo remoto de líneas de producción, Automatización y control."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -12,4 +12,11 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path:            "original/*"
+    values:
+      sitemap:         false
 
